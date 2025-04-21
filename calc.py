@@ -1,6 +1,6 @@
 num_1= int(input("Enter 1st Number: "))
 num_2= int(input("Enter 2nd Number: "))
-opreation = input("Select + or - or / or * or ** or ! or absolute :")
+opreation = input("Select + or - or / or * or ** or ! or absolute or (OR) | :")
 result =0 
 
 
@@ -28,8 +28,11 @@ elif opreation == "!":
 elif opreation == "absolute":
      result = abs(num_1)  
 
+elif opreation == "|":
+     result = num_1 | num_2 
 
-    
+     
+ 
 
 
 print ("Result is:", result) 
